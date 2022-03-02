@@ -1,0 +1,151 @@
+body {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  max-height: 768px;
+  background-color: #5eccf4;
+}
+h1 {
+  font-family: "League Gothic", sans-serif;
+  color: #7a0000;
+  font-size: 46px;
+  text-align: center;
+}
+h4 {
+  color: #13274e;
+  font-size: 24px;
+}
+
+h5 {
+  font-family: "Raleway", sans-serif;
+  color: #f2f2f2;
+  font-size: 36px;
+  padding: 12px 16px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+#navbardropdown {
+  color: #ffff;
+}
+#navbar {
+  background-color: #13274e;
+}
+.nav-item {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.nav-link {
+  color: #ffff;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#inputs {
+  background: #f1f1f1;
+  padding: 6px 5px;
+  margin: 0 0 5px 0;
+  width: 238px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #ccc inset;
+}
+
+#inputs input:focus {
+  background-color: #fff;
+  border-color: #13274e;
+  outline: none;
+  box-shadow: 0 0 0 1px #13274e inset;
+}
+
+/*Social Buttons*/
+
+.fa-facebook {
+  color: #ffff;
+  font-size: 20px;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.fa-twitter {
+  color: #ffff;
+  font-size: 20px;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.fa-instagram {
+  color: #ffff;
+  font-size: 20px;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.fa-pinterest {
+  color: #ffff;
+  font-size: 20px;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.fa-reddit {
+  color: #ffff;
+  font-size: 20px;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.fa-youtube {
+  color: white;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
