@@ -5,7 +5,7 @@ body {
   bottom: 0;
   top: 0;
   max-height: 768px;
-  background-color: #5eccf4;
+  background-color: #ffff;
 }
 h1 {
   font-family: "League Gothic", sans-serif;
@@ -77,19 +77,18 @@ p {
 
 .fa-facebook {
   color: #ffff;
-  font-size: 20px;
+  font-size: 25px;
   padding: 4px;
   width: 30px;
   height: 30px;
   text-align: center;
   text-decoration: none;
-  border-radius: 30px;
   background-color: rgba(255, 255, 255, 0);
 }
 
 .fa-twitter {
   color: #ffff;
-  font-size: 20px;
+  font-size: 25px;
   padding: 4px;
   width: 30px;
   height: 30px;
@@ -101,7 +100,7 @@ p {
 
 .fa-instagram {
   color: #ffff;
-  font-size: 20px;
+  font-size: 25px;
   padding: 4px;
   width: 30px;
   height: 30px;
@@ -113,7 +112,7 @@ p {
 
 .fa-pinterest {
   color: #ffff;
-  font-size: 20px;
+  font-size: 25px;
   padding: 4px;
   width: 30px;
   height: 30px;
@@ -125,7 +124,7 @@ p {
 
 .fa-reddit {
   color: #ffff;
-  font-size: 20px;
+  font-size: 25px;
   padding: 4px;
   width: 30px;
   height: 30px;
@@ -134,9 +133,9 @@ p {
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0);
 }
-
 .fa-youtube {
   color: white;
+  font-size: 25px;
   padding: 4px;
   width: 30px;
   height: 30px;
