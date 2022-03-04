@@ -16,200 +16,384 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Raleway:wght@100&display=swap"
         rel="stylesheet">
-
-
-
+    <link href='https://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg" id="navbar">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav navbar-left">
-                <!--comicbookmovie.com logo-->
-                <li>
-                    <img class="navbar-brand" src="logo-desktop.png">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" href="https://comicbookmovie.com/"
-                        aria-controls=" navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    </button>
-                </li>
-                <!--Links on Navbar-->
-
-                <!--Popular Stories-->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <li class=" nav-item dropdown" id="navbardropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Popular
+    <section class="Navbar">
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav navbar-left">
+                    <!--comicbookmovie.com logo-->
+                    <li>
+                        <img class="navbar-brand" src="logo-desktop.png">
+                        <a class="carousel-link" href="https://comicbookmovie.com">
                         </a>
-                        <!--Popular Stories drop down-->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="https://comicbookmovie.com/batman/">Batman</a></li>
-                            <li><a class="dropdown-item" href="https://comicbookmovie.com/doctor_strange/">Doctor
-                                    Strange</a></li>
-                            <li><a class="dropdown-item" href="https://comicbookmovie.com/the_flash/">The Flash</a></li>
-                            <li><a class="dropdown-item"
-                                    href=" https://comicbookmovie.com/tv/marvel/hawkeye/">Hawkeye</a></li>
-                            <li><a class="dropdown-item" href="https://comicbookmovie.com/spider-man/">Spiderman</a>
-                            </li>
-                            <li><a class="dropdown-item" href="https://comicbookmovie.com/sci-fi/star_wars/">
-                                    Star Wars</a>
-                            </li>
-                            <li><a class="dropdown-item" href="https://comicbookmovie.com/blsnet/anime/">Anime &
-                                    Manga</a></li>
-                            <li><a class="dropdown-item" href="https://comicbookmovie.com/blsnet/toons/">Toons</a></li>
-                            <li><a class="dropdown-item" href="https://comicbookmovie.com/blsnet/gaming/">Video
-                                    Games</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://comicbookmovie.com/blsnet/wrestling/">Wrestling</a></li>
-                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://comicbookmovie.com/news/">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://comicbookmovie.com/tv/">TV</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://comicbookmovie.com/comics/#">Comics</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://comicbookmovie.com/features/">List & Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://comicbookmovie.com/reviews/">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://comicbookmovie.com/interviews/">Interviews</a>
-                    </li>
-                    <li class="nav-item dropdown" id="navbardropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Sign Up
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li class="nav-item dropdown" id="navbardropdown">
-                                <form class="signup-form">
-                                    <h4 class="text-center">SIGN UP</h4>
-                                    <hr>
-                                    <div class="form-group"> <input type="text" class="form-control"
-                                            placeholder="Full Name" required="required"> </div>
-                                    <div class="form-group"> <input type="email" class="form-control"
-                                            placeholder="Email Address" required="required"> </div>
-                                    <div class="form-group"> <input type="text" class="form-control"
-                                            placeholder="User Name" required="required"> </div>
-                                    <div class="form-group"> <input type="text" class="form-control"
-                                            placeholder="Password" required="required"> </div>
-                                    <div class="form-group text-center"> <button type="submit"
-                                            class="btn btn-blue btn-block">Start Now</button> </div>
-                                </form>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--Sign In-->
-                    <li class="nav-item dropdown" id="navbardropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Sign In
-                        </a>
-                        <!--Sign In Dropdown-->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li class="nav-item dropdown" id="navbardropdown">
-                                <form id="signin-form">
-                                    <h4 class="text-center">SIGN IN</h4>
-                                    <hr>
-                                    <fieldset id="inputs">
-                                        <input id="username" type="email" name="Email" placeholder="Email address"
-                                            required>
-                                        <input id="password" type="password" name="Password" placeholder="Password"
-                                            required>
-                                        <input type="submit" id="submit" value="Log in">
-                                        <label>
-                                            <input type="checkbox" checked="checked">
-                                            Remember Me!
-                                        </label>
-                                    </fieldset>
-                                </form>
-                            </li>
-                        </ul>
-                </div>
+                    <!--Links on Navbar-->
+                    <!--Button 1-->
+                    <!--Popular Stories-->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <li class=" nav-item dropdown" id="navbardropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Popular
+                            </a>
+                            <!--Popular Stories drop down-->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://comicbookmovie.com/batman/">Batman</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://comicbookmovie.com/doctor_strange/">Doctor
+                                        Strange</a></li>
+                                <li><a class="dropdown-item" href="https://comicbookmovie.com/the_flash/">The
+                                        Flash</a></li>
+                                <li><a class="dropdown-item"
+                                        href=" https://comicbookmovie.com/tv/marvel/hawkeye/">Hawkeye</a></li>
+                                <li><a class="dropdown-item" href="https://comicbookmovie.com/spider-man/">Spiderman</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://comicbookmovie.com/sci-fi/star_wars/">
+                                        Star Wars</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://comicbookmovie.com/blsnet/anime/">Anime &
+                                        Manga</a></li>
+                                <li><a class="dropdown-item" href="https://comicbookmovie.com/blsnet/toons/">Toons</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://comicbookmovie.com/blsnet/gaming/">
+                                        Video Games</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://comicbookmovie.com/blsnet/wrestling/">Wrestling</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://comicbookmovie.com/news/">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://comicbookmovie.com/tv/">TV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://comicbookmovie.com/comics/#">Comics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://comicbookmovie.com/features/">List & Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://comicbookmovie.com/reviews/">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://comicbookmovie.com/interviews/">Interviews</a>
+                        </li>
+                        <li class="nav-item dropdown" id="navbardropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sign Up
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="nav-item dropdown" id="navbardropdown">
+                                    <form class="signup-form">
+                                        <h4 class="text-center">SIGN UP</h4>
+                                        <hr>
+                                        <div class="form-group"> <input type="text" class="form-control"
+                                                placeholder="Full Name" required="required"> </div>
+                                        <div class="form-group"> <input type="email" class="form-control"
+                                                placeholder="Email Address" required="required"> </div>
+                                        <div class="form-group"> <input type="text" class="form-control"
+                                                placeholder="User Name" required="required"> </div>
+                                        <div class="form-group"> <input type="text" class="form-control"
+                                                placeholder="Password" required="required"> </div>
+                                        <div class="form-group text-center"> <button type="submit"
+                                                class="btn btn-blue btn-block">Start Now</button> </div>
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--Sign In-->
+                        <li class="nav-item dropdown" id="navbardropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sign In
+                            </a>
+                            <!--Sign In Dropdown-->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="nav-item dropdown" id="navbardropdown">
+                                    <form id="signin-form">
+                                        <h4 class="text-center">SIGN IN</h4>
+                                        <hr>
+                                        <fieldset id="inputs">
+                                            <input id="username" type="email" name="Email" placeholder="Email address"
+                                                required>
+                                            <input id="password" type="password" name="Password" placeholder="Password"
+                                                required>
+                                            <input type="submit" id="submit" value="Log in">
+                                            <label>
+                                                <input type="checkbox" checked="checked">
+                                                Remember Me!
+                                            </label>
+                                        </fieldset>
+                                    </form>
+                                </li>
+                            </ul>
+                    </div>
+                </ul>
 
-            </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!--Social Icon Buttons-->
+                    <li class="nav-item">
+                        <a href="https://www.facebook.com/ComicBookMovie" class="fa fa-facebook"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://twitter.com/comicbook_movie" class="fa fa-twitter"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/cbmnet/" class="fa fa-instagram"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.pinterest.com/comicbookmovie/" class="fa fa-pinterest"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.reddit.com/domain/comicbookmovie.com/new/" class="fa fa-reddit"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.youtube.com/user/comicbookmovie" class="fa fa-youtube"></a>
+                    </li>
+                </ul>
 
-            <ul class="nav navbar-nav navbar-right">
-                <!--Social Icon Buttons-->
-                <li class="nav-item">
-                    <a href="https://www.facebook.com/ComicBookMovie" class="fa fa-facebook"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://twitter.com/comicbook_movie" class="fa fa-twitter"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://www.instagram.com/cbmnet/" class="fa fa-instagram"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://www.pinterest.com/comicbookmovie/" class="fa fa-pinterest"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://www.reddit.com/domain/comicbookmovie.com/new/" class="fa fa-reddit"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://www.youtube.com/user/comicbookmovie" class="fa fa-youtube"></a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
-
+            </div>
+        </nav>
+    </section>
     <!--end navigation-->
+
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Welcome to ComicBookMovie.com_Sample Design</h1>
+            <h1 class="display-4">Welcome to ComicBookMovie.com_SAMPLE LAYOUT</h1>
             <p class="lead"> </p>
         </div>
     </div>
 
     <!--Carousel-->
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
+    <div class="Row">
+        <div class="col">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="image img-fluid" src="batman.jpeg" alt="batman image">
+                        <h5>
+                            <a class="carousel-link"
+                                href="https://comicbookmovie.com/batman/the_batman/the-batman-interview-producer-dylan-clark-on-finding-the-right-cast-and-establishing-a-new-tone-exclusive-a192429">
+                                The Batman
+                            </a>
+                        </h5>
+                        <p class="carousel-features">Producer Dylan Clark On Finding The Right Cast And Establishing
+                            A
+                            New Tone
+                            (Exclusive)</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="image img-fluid" src="obi-wan-ewan-series.jpeg" alt="Obiwan Image">
+                        <h5>
+                            <a class="carousel-link"
+                                href="https://sffgazette.com/sci-fi/star_wars/obi-wan-kenobi-rumored-to-include-the-huge-cameo-fans-have-been-a1189">
+                                OBI-WAN KENOBI
+                            </a>
+                        </h5>
+                        <p class="carousel-features">Rumored to include a THE HUGE cameo apperance fans have been
+                            waitiing years
+                            to see </p>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="image img-fluid" src="spiderman.jpeg" alt="Spiderman Image">
+                        <h5>
+                            <a class="carousel-link"
+                                href="https://comicbookmovie.com/spider-man/no_way_home/spider-man-no-way-home-promo-art-finally-reveals-a-detailed-look-at-peter-parkers-amazing-new-suit-a192461#gs.rgkwwe">
+                                SPIDER-MAN:NO WAY HOME
+                            </a>
+                        </h5>
+                        <p class="carousel-features">Promo Art Finally Reveals A Detailed Look At Peter Parker's
+                            Amazing
+                            New Suit</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="image img-fluid" src="batman.jpeg" alt="batman image">
-            </div>
-            <div class="carousel-item">
-                <img class="image img-fluid" src="obi-wan-ewan-series.jpeg" alt="Obiwan Image">
-            </div>
-            <div class="carousel-item">
-                <img class="image img-fluid" src="spiderman.jpeg" alt="Spiderman Image">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+    <!--Popular Stories Header -->
+    <div class="row">
+        <h6>Popular Stories</h6>
+    </div>
+    <!--The Stories-First row-->
+    <div class="row">
+        <div class="col">
+            <div class="description">
+                <h2> <a class="stories-header"
+                        href="https://comicbookmovie.com/batman/batgirl/new-batgirl-set-photos-give-us-a-much-better-look-at-the-villainous-firefly-in-full-costume-a192462">
+                        BATGIRL Set Photos Give Us A Much Better Look At The Villainous Firefly In Full Costume
+                    </a>
+                </h2>
+                <h3>We caught a glimpse of Firefly in-costume on the set of HBO Max's Batgirl movie last night,
+                    but these latest photos give us a much better look at the pyromaniacal villain's
+                    supervillain outfit.
+                </h3>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-photo" src="firefly.jpeg" width="400px" height="200px">
+        </div>
+
+        <div class="col">
+            <img class="card-photo" src="SM&LO.jpeg" width="400px" height="200px">
+        </div>
+        <div class="col">
+            <div class="description">
+                <h2>
+                    <a class="stories-header"
+                        href="https://comicbookmovie.com/tv/dc/superman__lois/superman-lois-clark-is-locked-up-in-the-new-promo-photos-for-season-2-episode-7-anti-hero-a192465">
+                        SUPERMAN & LOIS: Clark Is Locked Up In The New Promo & Photos From Season 2, Episode 7:
+                        "Anti-Hero"
+                    </a>
+                </h2>
+                <h3>Hot on the heels on another outstanding installment, next week's episode will see the Man of
+                    Steel deal with his very unexpected new predicament. Meanwhile, Lois uncovers a devastating
+                    secret.</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Row 2 Stories-->
+    <div class="row">
+        <div class="col">
+            <div class="description">
+                <h2>
+                    <a class="stories-header"
+                        href="https://comicbookmovie.com/comics/marvel_comics/iron-man-hellcat-annual-1-will-send-marvel-comics-newest-couple-to-hell-this-june-a192478">
+                        IRONMAN/HELLCAT ANNUAL #1 Will Send Marvel Comics' Newest Couple To Hell This June
+                    </a>
+                </h2>
+                <h3>Marvel Comics has announced plans for Iron Man Hellcat Annual #1, and Tony Stark and Patsy Walker
+                    are getting an early Honeymoon by heading to Hell (yes, Hell) for what sounds like one heckuva
+                    adventure. </h3>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-photo" src="iron man.jpeg" width="400px" height="200px">
+        </div>
+
+        <div class="col">
+            <img class="card-photo" src="scream.jpeg" width="400px" height="200px">
+        </div>
+        <div class="col">
+            <div class="description">
+
+                <h2> <a class="stories-header"
+                        href="http://https://comicbookmovie.com/horror/scream/scream-interview-melissa-barrera-describes-on-set-secrecy-the-pitfalls-of-fake-blood-and-more-exclusive-a192473">
+                        SCREAM Interview: Melissa Barrera Describes On Set Secrecy, The Pitfalls Of Fake Blood, And More
+                        (Exclusive)></a>
+                </h2>
+                <h3>Discussing the Digital release of Scream, star Melissa Barrera talks about sharing the screen with
+                    Courtney Cox and Neve Campbell for the first time, fake blood, and how the ending was kept a secret.
+                </h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Row3 Stories-->
+    <div class="row">
+        <div class="col">
+            <div class="description">
+                <h2>
+                    <a class="stories-header"
+                        href="https://comicbookmovie.com/comics/marvel_comics/iron-man-hellcat-annual-1-will-send-marvel-comics-newest-couple-to-hell-this-june-a192478">
+                        Sample Headine
+                    </a>
+                </h2>
+                <h3>Sample text </h3>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-photo" src="sample.webp" width="400px" height="200px">
+        </div>
+
+        <div class="col">
+            <img class="card-photo" src="sample.webp" width="400px" height="200px">
+        </div>
+        <div class="col">
+            <div class="description">
+
+                <h2> <a class="stories-header"
+                        href="http://https://comicbookmovie.com/horror/scream/scream-interview-melissa-barrera-describes-on-set-secrecy-the-pitfalls-of-fake-blood-and-more-exclusive-a192473">
+                        Sample Header></a>
+                </h2>
+                <h3>Sample Text
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <!--Row4 Stories-->
+    <div class="row">
+        <div class="col">
+            <div class="description">
+                <h2>
+                    <a class="stories-header"
+                        href="https://comicbookmovie.com/comics/marvel_comics/iron-man-hellcat-annual-1-will-send-marvel-comics-newest-couple-to-hell-this-june-a192478">
+                        Sample Headine
+                    </a>
+                </h2>
+                <h3>Sample text </h3>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-photo" src="sample.webp" width="400px" height="200px">
+        </div>
+
+        <div class="col">
+            <img class="card-photo" src="sample.webp" width="400px" height="200px">
+        </div>
+        <div class="col">
+            <div class="description">
+
+                <h2> <a class="stories-header"
+                        href="http://https://comicbookmovie.com/horror/scream/scream-interview-melissa-barrera-describes-on-set-secrecy-the-pitfalls-of-fake-blood-and-more-exclusive-a192473">
+                        Sample Header></a>
+                </h2>
+                <h3>Sample Text
+                </h3>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
